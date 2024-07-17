@@ -469,6 +469,42 @@
     [
       "cf0d4429-3f03-449f-96a7-26d69371a46d",
       ""
+    ],
+    [
+      "b8ced326-3f7b-429b-af5f-4df09b616f30",
+      "Variable_buck"
+    ],
+    [
+      "b0b823e2-9d24-4e97-9cf1-ee0d4770eeee",
+      "3V3_buck"
+    ],
+    [
+      "db251e01-6eeb-47fe-93bb-dcdf47418c03",
+      "Power_meas"
+    ],
+    [
+      "98d3ed26-c38f-44c2-bf71-21a6795da06e",
+      "FTDI"
+    ],
+    [
+      "b610508b-a91d-42e6-a99c-2a36feb42a9f",
+      "Memory"
+    ],
+    [
+      "74d35865-be2e-423f-866f-23d31ae4ff23",
+      "USBPD_control"
+    ],
+    [
+      "a2b30c81-e263-4971-9235-45a28ceb7112",
+      "PoE_supply"
+    ],
+    [
+      "9f9ff07f-b148-441e-a1ac-2ca99f89b523",
+      "ETH_connectors"
+    ],
+    [
+      "71fd6a9f-e91f-4e27-909c-676c68ed5a18",
+      "USBPD_output"
     ]
   ],
   "text_variables": {}
