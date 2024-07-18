@@ -5,6 +5,72 @@
   (paper "A3")
 
   (lib_symbols
+    (symbol "C_100n_0402_1" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 20.32 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Value" "C_100n_0402" (at 20.32 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 20.32 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "MPN" "GRM155R61H104KE14D" (at 20.32 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "Murata" (at 20.32 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (at 20.32 -22.86 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (at 20.32 -25.4 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Val" "100n" (at 20.32 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Voltage" "50V" (at 20.32 -27.94 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "Dielectric" "X5R" (at 20.32 -30.48 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "ki_description" " " (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_100n_0402_1_0_1"
+        (polyline
+          (pts
+            (xy 2.032 -1.524)
+            (xy 2.032 1.524)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.048 -1.524)
+            (xy 3.048 1.524)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_100n_0402_1_1_1"
+        (pin passive line (at 0 0 0) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "antmicroCapacitors0402:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -964,15 +1030,15 @@
           (name "IN+" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
@@ -996,15 +1062,15 @@
           (name "SCL" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 8.89 2.54 270) (length 2.54) hide
+        (pin free line (at 8.89 2.54 270) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -3618,7 +3684,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 207.01 185.42 90) (mirror x) (unit 1)
+  (symbol (lib_name "C_100n_0402_1") (lib_id "antmicroCapacitors0402:C_100n_0402") (at 207.01 185.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af32d74f-4c92-48c1-a176-8ed1f4c1f0ab)
     (property "Reference" "C34" (at 207.01 186.69 90)
