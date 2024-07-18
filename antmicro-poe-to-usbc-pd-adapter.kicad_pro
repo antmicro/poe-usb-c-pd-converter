@@ -418,7 +418,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/P5": "PoE"
+      "/PoE_supply/P4": "PoE"
     },
     "netclass_patterns": []
   },
