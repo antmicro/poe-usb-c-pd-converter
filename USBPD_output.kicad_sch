@@ -1637,11 +1637,11 @@
         )
       )
     )
-    (symbol "antmicropower:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "antmicropower:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "VCC" (at 0 3.81 0)
+      (property "Value" "VBUS" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1650,7 +1650,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "VCC_0_1"
+      (symbol "VBUS_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -1676,9 +1676,9 @@
           (fill (type none))
         )
       )
-      (symbol "VCC_1_1"
+      (symbol "VBUS_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
+          (name "VBUS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2691,6 +2691,31 @@
       (project "antmicro-poe-to-usbc-pd-adapter"
         (path "/cf0d4429-3f03-449f-96a7-26d69371a46d/71fd6a9f-e91f-4e27-909c-676c68ed5a18"
           (reference "#PWR069") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicropower:VBUS") (at 200.66 181.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0f039052-5523-464e-81fb-d333258462c1)
+    (property "Reference" "#PWR068" (at 200.66 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 200.66 176.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 200.66 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 200.66 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91cb220e-c07d-40df-911f-f48768ee908d))
+    (instances
+      (project "antmicro-poe-to-usbc-pd-adapter"
+        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d/71fd6a9f-e91f-4e27-909c-676c68ed5a18"
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -3910,31 +3935,6 @@
       (project "antmicro-poe-to-usbc-pd-adapter"
         (path "/cf0d4429-3f03-449f-96a7-26d69371a46d/71fd6a9f-e91f-4e27-909c-676c68ed5a18"
           (reference "R45") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:VCC") (at 200.66 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bff41866-2ced-4180-9977-e41b0d5e0c1c)
-    (property "Reference" "#PWR068" (at 200.66 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 200.66 177.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 200.66 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 200.66 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 547d24ea-2af1-4596-b471-7a81e38e84ed))
-    (instances
-      (project "antmicro-poe-to-usbc-pd-adapter"
-        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d/71fd6a9f-e91f-4e27-909c-676c68ed5a18"
-          (reference "#PWR068") (unit 1)
         )
       )
     )
