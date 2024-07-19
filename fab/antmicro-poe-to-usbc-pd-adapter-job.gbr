@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.11+dfsg-1build4"
     },
-    "CreationDate": "2024-07-15T15:28:05+02:00"
+    "CreationDate": "2024-07-19T16:51:48+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,19 +14,30 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 97.5,
-      "Y": 54.71
+      "X": 112.52,
+      "Y": 56.12
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
-      "TrackToTrack": 0.2
+      "PadToPad": 0.125,
+      "PadToTrack": 0.125,
+      "TrackToTrack": 0.125,
+      "MinLineWidth": 0.155,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.125,
+      "PadToTrack": 0.125,
+      "TrackToTrack": 0.125,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
@@ -36,8 +47,18 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "antmicro-poe-to-usbc-pd-adapter-In1_Cu.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "antmicro-poe-to-usbc-pd-adapter-In2_Cu.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "antmicro-poe-to-usbc-pd-adapter-B_Cu.gbl",
-      "FileFunction": "Copper,L2,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -156,7 +177,7 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "antmicro-poe-to-usbc-pd-adapter-User_9.gbr",
+      "Path": "antmicro-poe-to-usbc-pd-adapter-Components_Wireframe.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
@@ -172,24 +193,53 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.12,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.2,
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.12,
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
