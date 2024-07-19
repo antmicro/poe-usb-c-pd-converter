@@ -15,7 +15,6 @@
 
   (bus_alias "Buck_FB" (members "FB1" "FB2" "FB3" "FB4"))
   (bus_alias "CC" (members "CC1" "CC2"))
-  (bus_alias "ETH" (members "P1" "P2" "P3" "P6" "P7" "P8" "P9" "P10" "P4" "P5"))
   (bus_alias "FLASH_SPI" (members "FLASH_SCK" "FLASH_SDO" "FLASH_SDI" "FLASH_CS"))
   (bus_alias "POE_PWR" (members "VC1" "VC2" "VC3" "VC4"))
   (junction (at 232.41 111.76) (diameter 0) (color 0 0 0 0)
