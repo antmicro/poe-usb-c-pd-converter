@@ -3016,7 +3016,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 257.175 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 397445ee-5c25-46ed-b63a-fc9d8c4e8bbc)
     (property "Reference" "R4" (at 259.715 130.81 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
