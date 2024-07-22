@@ -470,11 +470,7 @@
     "netclass_patterns": [
       {
         "netclass": "100Ohm-diff_ETH",
-        "pattern": "/PoE_supply/MDI0_P"
-      },
-      {
-        "netclass": "100Ohm-diff_ETH",
-        "pattern": "/PoE_supply/MDI0_N"
+        "pattern": "*MDI*"
       }
     ]
   },

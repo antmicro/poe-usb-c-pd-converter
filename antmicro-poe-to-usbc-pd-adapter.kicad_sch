@@ -9,21 +9,23 @@
     (date "2024-07-08")
     (company "Antmicro ltd.")
   )
-  (lib_symbols)
 
-  (junction (at 232.41 111.76) (diameter 0) (color 0 0 0 0)
-    (uuid 98767520-6bf8-4ecb-bc15-7ab8a90c591a)
+  (lib_symbols
   )
 
   (bus_alias "Buck_FB" (members "FB1" "FB2" "FB3" "FB4"))
   (bus_alias "CC" (members "CC1" "CC2"))
   (bus_alias "FLASH_SPI" (members "FLASH_SCK" "FLASH_SDO" "FLASH_SDI" "FLASH_CS"))
   (bus_alias "POE_PWR" (members "VC1" "VC2" "VC3" "VC4"))
+  (junction (at 232.41 111.76) (diameter 0) (color 0 0 0 0)
+    (uuid 98767520-6bf8-4ecb-bc15-7ab8a90c591a)
+  )
 
   (bus (pts (xy 208.28 166.37) (xy 240.03 166.37))
     (stroke (width 0) (type default))
     (uuid 1189ed81-0143-46bb-bfee-bf003ee3d4b4)
   )
+
   (wire (pts (xy 173.99 124.46) (xy 179.07 124.46))
     (stroke (width 0) (type default))
     (uuid 15c27f5b-85e4-428f-8ca8-253438cd4d51)
@@ -32,6 +34,7 @@
     (stroke (width 0) (type default))
     (uuid 184320f8-4faa-4c11-996d-5d792f66098b)
   )
+
   (wire (pts (xy 171.45 163.83) (xy 179.07 163.83))
     (stroke (width 0) (type default))
     (uuid 1c6f2ac2-141e-499e-9c48-c1f3e38ab23f)
@@ -48,6 +51,7 @@
     (stroke (width 0) (type default))
     (uuid 27dae751-6591-4953-961d-0f6ab4c1ba23)
   )
+
   (wire (pts (xy 172.72 125.73) (xy 173.99 124.46))
     (stroke (width 0) (type default))
     (uuid 28f29866-c635-4c2e-8497-a3479860b07a)
@@ -64,6 +68,7 @@
     (stroke (width 0) (type default))
     (uuid 52f1a357-fb78-4863-8d1b-4759dee312a0)
   )
+
   (wire (pts (xy 173.99 161.29) (xy 179.07 161.29))
     (stroke (width 0) (type default))
     (uuid 57a9c435-b0e9-494a-a40c-715e9b7e61e1)
@@ -80,6 +85,7 @@
     (stroke (width 0) (type default))
     (uuid 7886fda1-0c5a-4c52-add3-767b92deb767)
   )
+
   (wire (pts (xy 173.99 161.29) (xy 172.72 160.02))
     (stroke (width 0) (type default))
     (uuid 7c77e94c-ab54-46d6-bd53-e8b3943496ae)
@@ -96,6 +102,7 @@
     (stroke (width 0) (type default))
     (uuid b588aef9-58cf-4157-9a1a-fe23656c8b5f)
   )
+
   (wire (pts (xy 170.18 123.19) (xy 171.45 121.92))
     (stroke (width 0) (type default))
     (uuid c13726c2-7081-4acb-a93d-80a83cbeeb54)

@@ -74,7 +74,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_100n_16V_X7R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -144,7 +143,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_4u7_25V_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -214,7 +212,6 @@
         )
       )
     )
-
     (symbol "antmicroFerriteBeadsandChips:FB_600Z_0.5A_Murata-BLM18AG_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -292,7 +289,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceControllers:FT4232H_VQFN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 55.88 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -559,7 +555,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -617,7 +612,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_12k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -672,7 +666,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -727,7 +720,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_4k7_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -782,7 +774,6 @@
         )
       )
     )
-
     (symbol "antmicroResonators:Resonator_12MHz_ABM8G" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -876,7 +867,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_1.5mm_SMD" (pin_names hide) (in_bom no) (on_board yes)
       (property "Reference" "TP" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -919,7 +909,6 @@
         )
       )
     )
-
     (symbol "antmicropower:+3V3" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -972,7 +961,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -1013,6 +1001,8 @@
     )
   )
 
+  (bus_alias "FTDI_SPI" (members "FTDI_SDO" "FTDI_SDI" "FTDI_CS" "FTDI_SCK"))
+  (bus_alias "USB_DATA" (members "D+" "D-"))
   (junction (at 162.56 88.265) (diameter 0) (color 0 0 0 0)
     (uuid 0443b414-f9b1-4abc-9992-023058660544)
   )
@@ -1114,9 +1104,6 @@
     (uuid f6d2ab5b-a816-4427-9a4f-7729646753ba)
   )
 
-  (bus_alias "FTDI_SPI" (members "FTDI_SDO" "FTDI_SDI" "FTDI_CS" "FTDI_SCK"))
-  (bus_alias "USB_DATA" (members "D+" "D-"))
-
   (wire (pts (xy 173.99 106.68) (xy 180.34 106.68))
     (stroke (width 0) (type default))
     (uuid 03c3839e-c7e6-4b75-ac1d-0beed0229143)
@@ -1129,6 +1116,7 @@
     (stroke (width 0) (type default))
     (uuid 0c75e389-4a0a-4bf2-9f13-06fd95e77706)
   )
+
   (wire (pts (xy 220.98 120.65) (xy 231.775 120.65))
     (stroke (width 0) (type default))
     (uuid 0d82d071-e7ac-4aa2-904d-660c728d4157)
@@ -1213,6 +1201,7 @@
     (stroke (width 0) (type default))
     (uuid 3a48c517-2cae-4cfe-8ffd-995ba0f74a2c)
   )
+
   (wire (pts (xy 113.665 93.98) (xy 113.665 101.6))
     (stroke (width 0) (type default))
     (uuid 472ec549-baf8-444e-894b-e3f713bcef14)
@@ -1245,6 +1234,7 @@
     (stroke (width 0) (type default))
     (uuid 5969177c-5e12-4853-9d76-f418e6daee18)
   )
+
   (wire (pts (xy 228.6 96.52) (xy 238.125 96.52))
     (stroke (width 0) (type default))
     (uuid 5a8ec4a9-0ca4-4432-b673-00da42e04617)
@@ -1261,6 +1251,7 @@
     (stroke (width 0) (type default))
     (uuid 64f8b7ab-4ea1-40be-836c-ef10a59d3bd2)
   )
+
   (wire (pts (xy 29.21 29.21) (xy 43.18 29.21))
     (stroke (width 0) (type default))
     (uuid 67ce37af-f53c-49cc-8c98-a4d812152140)
@@ -1273,6 +1264,7 @@
     (stroke (width 0) (type default))
     (uuid 705d319f-0302-4967-b7df-4c26ba70401e)
   )
+
   (wire (pts (xy 139.065 106.68) (xy 139.065 104.14))
     (stroke (width 0) (type default))
     (uuid 71094248-10e9-40a9-9b17-559505d7de25)
@@ -1313,6 +1305,7 @@
     (stroke (width 0) (type default))
     (uuid 8f6e3ac0-ded9-4e92-8ee2-7fec6e31efa5)
   )
+
   (wire (pts (xy 36.83 48.26) (xy 39.37 48.26))
     (stroke (width 0) (type default))
     (uuid 916a5f65-3add-47c7-b6a1-5e96cd72a76b)
@@ -1353,6 +1346,7 @@
     (stroke (width 0) (type default))
     (uuid a4c61a8b-52d6-4b16-ba6b-0231fb592576)
   )
+
   (wire (pts (xy 36.83 57.15) (xy 45.72 57.15))
     (stroke (width 0) (type default))
     (uuid a5822449-2738-42b0-a61f-37c63bd1389e)
@@ -1369,6 +1363,7 @@
     (stroke (width 0) (type default))
     (uuid aa634041-619a-4d0c-a707-2eb7ae75fd10)
   )
+
   (wire (pts (xy 238.125 80.01) (xy 238.125 81.28))
     (stroke (width 0) (type default))
     (uuid ab09a97f-c511-4c44-ad19-0681047aaeca)
@@ -1417,6 +1412,7 @@
     (stroke (width 0) (type default))
     (uuid c4557803-c3a8-4111-ab35-1177f4c4c3a6)
   )
+
   (wire (pts (xy 162.56 93.345) (xy 162.56 95.25))
     (stroke (width 0) (type default))
     (uuid c65ff09d-0998-40bd-894e-b32bb6bcc762)
@@ -1473,6 +1469,7 @@
     (stroke (width 0) (type default))
     (uuid f39a8d69-bf50-41fe-bbc4-2ed9fe5a8597)
   )
+
   (wire (pts (xy 36.83 59.69) (xy 45.72 59.69))
     (stroke (width 0) (type default))
     (uuid f3bb3ecf-16e9-4a02-b579-61c015fcd6b3)
