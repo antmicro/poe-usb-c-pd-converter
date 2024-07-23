@@ -21,11 +21,6 @@
     (uuid 98767520-6bf8-4ecb-bc15-7ab8a90c591a)
   )
 
-  (bus (pts (xy 208.28 166.37) (xy 240.03 166.37))
-    (stroke (width 0) (type default))
-    (uuid 1189ed81-0143-46bb-bfee-bf003ee3d4b4)
-  )
-
   (wire (pts (xy 173.99 124.46) (xy 179.07 124.46))
     (stroke (width 0) (type default))
     (uuid 15c27f5b-85e4-428f-8ca8-253438cd4d51)
@@ -47,7 +42,7 @@
     (stroke (width 0) (type default))
     (uuid 204815f3-96b9-40a5-b418-b2675260317c)
   )
-  (bus (pts (xy 240.03 166.37) (xy 242.57 165.1))
+  (bus (pts (xy 241.3 166.37) (xy 242.57 165.1))
     (stroke (width 0) (type default))
     (uuid 27dae751-6591-4953-961d-0f6ab4c1ba23)
   )
@@ -138,6 +133,10 @@
   (bus (pts (xy 209.55 113.03) (xy 220.98 113.03))
     (stroke (width 0) (type default))
     (uuid f8eb7bf8-e782-470a-ad9c-4b91908d6a8d)
+  )
+  (bus (pts (xy 208.28 166.37) (xy 241.3 166.37))
+    (stroke (width 0) (type default))
+    (uuid f8ece19d-96a9-4f52-89aa-8589865804ce)
   )
 
   (sheet (at 179.07 107.95) (size 30.48 19.05) (fields_autoplaced)
