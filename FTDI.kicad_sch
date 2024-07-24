@@ -2461,7 +2461,7 @@
     (property "Value" "TP_1.5mm_SMD" (at 248.92 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:TP_SMD_1.5mm" (at 248.92 109.22 0)
+    (property "Footprint" "antmicro-footprints:TP_SMD_0.75mm" (at 248.92 109.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 251.46 111.76 0)
