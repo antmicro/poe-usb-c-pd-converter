@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "PoE to USBC PD adapter")
+    (date "2024-07-08")
+    (company "Antmicro ltd.")
+  )
+
   (lib_symbols
     (symbol "C_18p_0402_1" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
@@ -1104,8 +1110,8 @@
     )
   )
 
-  (bus_alias "FTDI_SPI" (members "FTDI_SDO" "FTDI_SDI" "FTDI_CS" "FTDI_SCK"))
-  (bus_alias "USB_DATA" (members "D+" "D-"))
+  (bus_alias "SPI" (members "FTDI_SDO" "FTDI_SDI" "FTDI_CS" "FTDI_SCK"))
+  (bus_alias "USB" (members "D+" "D-"))
   (junction (at 133.985 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 0443b414-f9b1-4abc-9992-023058660544)
   )
@@ -1730,7 +1736,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ad2c6a4-45f5-4894-ac29-219c15ef58e0)
   )
-  (label "{I2C1}" (at 33.02 76.2 180) (fields_autoplaced)
+  (label "{I2C}" (at 33.02 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b7bf7a37-8f04-4035-9faf-a2eb1cde8d3e)
   )
@@ -1775,7 +1781,7 @@
     (uuid fe7a7a57-ea56-4f44-bb4d-73b70430b22b)
   )
 
-  (hierarchical_label "{FTDI_SPI}" (shape bidirectional) (at 26.67 53.34 180) (fields_autoplaced)
+  (hierarchical_label "{SPI}" (shape bidirectional) (at 26.67 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 09b95917-cf49-441a-8e43-0208592300f0)
   )
@@ -1787,11 +1793,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6fc87d59-e13e-47db-af5f-efa43031cc97)
   )
-  (hierarchical_label "{I2C1}" (shape bidirectional) (at 25.4 76.2 180) (fields_autoplaced)
+  (hierarchical_label "{I2C}" (shape bidirectional) (at 25.4 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6ff80c7e-d326-4b60-ad93-07137d48411a)
   )
-  (hierarchical_label "{USB_DATA}" (shape bidirectional) (at 29.21 41.91 180) (fields_autoplaced)
+  (hierarchical_label "{USB}" (shape bidirectional) (at 29.21 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bfc9ae93-bb3b-4fc9-b9fb-b261a596666d)
   )

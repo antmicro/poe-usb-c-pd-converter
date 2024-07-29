@@ -1,5 +1,15 @@
 (version 1)
-(rule clearance_PoE
-	(condition "A.NetClass == 'Default' && B.NetClass == 'PoE'")
-	(constraint clearance (min 0.5mm))
+
+(rule fanout_poe
+	(condition "A.insideCourtyard('U1')")
+	(constraint clearance (opt 0.2mm))
+	(layer outer)
 )
+
+(rule clearance_PoE
+	(condition "A.NetClass == 'PoE' && B.NetClass == 'Default'") 
+	(constraint clearance (opt 0.5mm))
+	(layer outer)
+)
+
+

@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "PoE to USBC PD adapter")
+    (date "2024-07-08")
+    (company "Antmicro ltd.")
+  )
+
   (lib_symbols
     (symbol "C_100n_0402_1" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
@@ -2947,7 +2953,7 @@
     )
   )
 
-  (bus_alias "I2C1" (members "SCL" "SDA"))
+  (bus_alias "I2C" (members "SCL" "SDA"))
   (junction (at 235.585 57.785) (diameter 0) (color 0 0 0 0)
     (uuid 043e12b9-eb35-489f-8271-8d6747976ae1)
   )
@@ -4138,7 +4144,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 143bcbd1-d99f-4d6d-bb62-44f4ed22be48)
   )
-  (label "{FTDI_SPI}" (at 280.67 198.12 180) (fields_autoplaced)
+  (label "{SPI}" (at 280.67 198.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 145142d3-748b-4d0c-a9fe-36dd490775f7)
   )
@@ -4194,7 +4200,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6bfe3218-8476-4c86-af95-0f88f8869f3a)
   )
-  (label "{I2C1}" (at 391.16 35.56 180) (fields_autoplaced)
+  (label "{I2C}" (at 391.16 35.56 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7ad72ba6-b031-4ccd-b6d6-346807b49c64)
   )
@@ -4307,11 +4313,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0dc8f791-0865-44b1-a6b4-06b0307421e5)
   )
-  (hierarchical_label "{I2C1}" (shape bidirectional) (at 381 35.56 180) (fields_autoplaced)
+  (hierarchical_label "{I2C}" (shape bidirectional) (at 381 35.56 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 28e805b9-5405-47cb-be39-d4ba2dd332dc)
   )
-  (hierarchical_label "{FTDI_SPI}" (shape bidirectional) (at 269.24 198.12 180) (fields_autoplaced)
+  (hierarchical_label "{SPI}" (shape bidirectional) (at 269.24 198.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6fe20378-3ef6-4eb0-8105-552bd83c2844)
   )
