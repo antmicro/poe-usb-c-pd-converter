@@ -4368,8 +4368,8 @@
     (uuid cc1e9e76-f62f-47b9-a1e2-7a50ec76cff0)
   )
 
-  (text "real voltage 3V2" (at 100.33 224.79 90)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "real voltage 3V2" (at 108.585 224.79 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 326f04df-811f-4983-bc8f-282baf7e82d9)
   )
   (text "External FLASH" (at 129.54 192.405 0)

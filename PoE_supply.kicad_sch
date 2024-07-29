@@ -3706,7 +3706,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_270R_0402") (at 75.565 123.825 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 446ec415-cf2b-4037-bda8-ea6afca0603c)
     (property "Reference" "R65" (at 76.835 120.65 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -3875,7 +3875,7 @@
   )
 
   (symbol (lib_name "PJE138K_2") (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 31.75 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 54baf0bc-78f2-4862-9534-a5963a401222)
     (property "Reference" "Q2" (at 33.02 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -4064,7 +4064,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_150k_0402") (at 23.495 112.395 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 647d61fe-f5f3-40af-a0f9-69fdd3c9805d)
     (property "Reference" "R67" (at 25.4 108.585 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -4245,7 +4245,7 @@
   )
 
   (symbol (lib_name "R_100k_0402_1") (lib_id "antmicroResistors0402:R_100k_0402") (at 23.495 123.825 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 7ecf6c9b-e702-452b-8c82-623f178c8372)
     (property "Reference" "R66" (at 25.4 120.015 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -4711,7 +4711,7 @@
   )
 
   (symbol (lib_name "PJE138K_2") (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 31.75 114.935 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid c4256b03-1c6c-4c3f-b08c-2839c8d7a9f5)
     (property "Reference" "Q3" (at 33.02 107.315 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -4856,7 +4856,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_270R_0402") (at 66.04 127.635 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d1489497-8607-499c-9044-8243d3eab54f)
     (property "Reference" "R30" (at 67.31 124.46 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
