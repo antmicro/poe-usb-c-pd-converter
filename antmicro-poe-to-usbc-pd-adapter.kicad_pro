@@ -504,11 +504,11 @@
     "net_colors": null,
     "netclass_assignments": {
       "/PoE_supply/P4": "PoE",
+      "/PoE_supply/PG": "PoE",
       "/PoE_supply/VDD": "PoE",
       "/PoE_supply/VSS": "PoE",
       "GNDD": "PoE",
       "Net-(Q1-D)": "PoE",
-      "Net-(Q1-G)": "PoE",
       "Net-(U1-AMPS_CTL)": "PoE",
       "Net-(U1-DEN)": "PoE",
       "Net-(U1-MPS_DUTY)": "PoE",
