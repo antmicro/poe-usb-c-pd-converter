@@ -7,7 +7,8 @@
   (title_block
     (title "PoE to USBC PD adapter")
     (date "2024-07-08")
-    (company "Antmicro ltd.")
+    (rev "1.0.0")
+    (company "Antmicro")
   )
 
   (lib_symbols
