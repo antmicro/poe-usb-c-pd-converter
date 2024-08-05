@@ -509,7 +509,6 @@
       "Net-(U1-AMPS_CTL)": "PoE",
       "Net-(U1-DEN)": "PoE",
       "Net-(U1-MPS_DUTY)": "PoE",
-      "Net-(U1-PG)": "PoE",
       "Net-(U1-REF)": "PoE",
       "unconnected-(U1-~{AUTCLS}-Pad10)": "PoE"
     },
