@@ -249,7 +249,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "100k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_100k_0402_1_0_1"
@@ -2177,7 +2180,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "100k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_100k_0402_0_1"
