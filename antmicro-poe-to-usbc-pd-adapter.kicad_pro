@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|173790000|131960000|cee7cf43-7307-4462-8213-9b1b474f4ce0|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|176240000|131930000|08b57af7-aa03-4483-b81b-a5625690cacf|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|179850000|131940000|28c4995d-9088-4b73-8318-699866b47080|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|183650000|131960000|aadeca00-357b-4f4f-a270-38b532fbe2d0|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|173790000|131960000|cee7cf43-7307-4462-8213-9b1b474f4ce0|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|176240000|131930000|08b57af7-aa03-4483-b81b-a5625690cacf|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|179850000|131940000|28c4995d-9088-4b73-8318-699866b47080|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|183650000|131960000|aadeca00-357b-4f4f-a270-38b532fbe2d0|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|172650000|131443253|68276d6e-bbdd-44e5-9225-a5e1fa0b838d|fb9a0f3f-e4ad-479d-a44f-8f70c24df4bc",
+        "silk_overlap|175359251|131413253|abdaf6f0-25de-4c51-a537-02ee30bbd3f8|bc53870b-e5a6-4a50-b582-c524fdf566c4",
+        "silk_overlap|177919251|131414852|924d5416-86d1-4524-85bf-f1181873df6b|c62f6944-69f9-4b30-a16e-c1b1236e79b4",
+        "silk_overlap|184800000|132467701|cf78e909-9086-4d3f-9823-f646a2b7025a|22214a03-6cb9-4ee5-9f68-aef833904e5e"
+      ],
       "meta": {
         "version": 2
       },
@@ -84,7 +97,7 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "error",
@@ -500,18 +513,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/PoE_supply/P4": "PoE",
       "/PoE_supply/PG": "PoE",
       "/PoE_supply/VDD": "PoE",
       "/PoE_supply/VSS": "PoE",
       "GNDD": "PoE",
+      "Net-(J1-P4)": "PoE",
       "Net-(Q1-D)": "PoE",
-      "Net-(Q1-G)": "PoE",
       "Net-(Q2-D)": "PoE",
       "Net-(R77-Pad2)": "PoE",
       "Net-(U1-AMPS_CTL)": "PoE",
       "Net-(U1-DEN)": "PoE",
       "Net-(U1-MPS_DUTY)": "PoE",
+      "Net-(U1-PG)": "PoE",
       "Net-(U1-REF)": "PoE",
       "unconnected-(U1-~{AUTCLS}-Pad10)": "PoE"
     },
