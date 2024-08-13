@@ -2795,7 +2795,7 @@
     )
     (instances
       (project "antmicro-poe-to-usbc-pd-adapter"
-        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "10"))
+        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "3"))
       )
     )
   )
@@ -2824,7 +2824,7 @@
     )
     (instances
       (project "antmicro-poe-to-usbc-pd-adapter"
-        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "10"))
+        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "5"))
       )
     )
   )
@@ -2861,7 +2861,7 @@
     )
     (instances
       (project "antmicro-poe-to-usbc-pd-adapter"
-        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "5"))
+        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "4"))
       )
     )
   )
@@ -2886,7 +2886,7 @@
     )
     (instances
       (project "antmicro-poe-to-usbc-pd-adapter"
-        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "8"))
+        (path "/cf0d4429-3f03-449f-96a7-26d69371a46d" (page "2"))
       )
     )
   )
