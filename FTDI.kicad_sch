@@ -1665,7 +1665,7 @@
     (uuid fc2f1373-f006-4e26-b96b-7e7e3691789d)
   )
 
-  (text "after reset RTS#" (at 237.49 139.7 0)
+  (text "after reset RTS#" (at 247.65 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 37e3dbe2-a42a-41c3-a594-8b07b8c0b153)
   )
