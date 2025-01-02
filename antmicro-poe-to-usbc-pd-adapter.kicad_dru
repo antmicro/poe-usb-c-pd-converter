@@ -7,9 +7,7 @@
 )
 
 (rule clearance_PoE
-	(condition "A.NetClass == 'PoE' && B.NetClass == 'Default'") 
-	(constraint clearance (opt 0.5mm))
 	(layer outer)
+	(constraint clearance (min 0.3mm))
+	(condition "A.NetClass == 'PoE' && B.NetClass == 'Default'") 
 )
-
-

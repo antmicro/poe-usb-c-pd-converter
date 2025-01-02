@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.125
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,19 +56,29 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|173790000|131960000|cee7cf43-7307-4462-8213-9b1b474f4ce0|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|176240000|131930000|08b57af7-aa03-4483-b81b-a5625690cacf|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|179850000|131940000|28c4995d-9088-4b73-8318-699866b47080|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|183650000|131960000|aadeca00-357b-4f4f-a270-38b532fbe2d0|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|208427000|148070015|0f157b32-e085-47bc-8e28-5eb30b52988d|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|173790000|131960000|cee7cf43-7307-4462-8213-9b1b474f4ce0|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|176240000|131930000|08b57af7-aa03-4483-b81b-a5625690cacf|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|179850000|131940000|28c4995d-9088-4b73-8318-699866b47080|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|183650000|131960000|aadeca00-357b-4f4f-a270-38b532fbe2d0|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|172650000|131443253|68276d6e-bbdd-44e5-9225-a5e1fa0b838d|fb9a0f3f-e4ad-479d-a44f-8f70c24df4bc",
-        "silk_overlap|175359251|131413253|abdaf6f0-25de-4c51-a537-02ee30bbd3f8|bc53870b-e5a6-4a50-b582-c524fdf566c4",
-        "silk_overlap|177919251|131414852|924d5416-86d1-4524-85bf-f1181873df6b|c62f6944-69f9-4b30-a16e-c1b1236e79b4",
-        "silk_overlap|184800000|132467701|cf78e909-9086-4d3f-9823-f646a2b7025a|22214a03-6cb9-4ee5-9f68-aef833904e5e"
+        "courtyards_overlap|202438001|124508001|04733713-db0b-49ab-9d52-6ed63bbfade5|2bdadb18-7bea-42d3-b391-6670591b8e20",
+        "courtyards_overlap|210700999|136479999|91d89cab-2b9d-4189-a050-42d4e373e312|e08b0ee9-3324-4bf4-8606-58146a4ea6a7",
+        "courtyards_overlap|216770001|131567001|1b6fd8dd-0b1b-469d-bbf4-50ea724c047e|e08b0ee9-3324-4bf4-8606-58146a4ea6a7",
+        "courtyards_overlap|217041999|128930001|04733713-db0b-49ab-9d52-6ed63bbfade5|e08b0ee9-3324-4bf4-8606-58146a4ea6a7",
+        "courtyards_overlap|217041999|128930001|2bdadb18-7bea-42d3-b391-6670591b8e20|e08b0ee9-3324-4bf4-8606-58146a4ea6a7",
+        "courtyards_overlap|217075001|130530001|e0360f1f-4ce3-4ec2-8ac1-a26ebb63dc84|e08b0ee9-3324-4bf4-8606-58146a4ea6a7",
+        "lib_footprint_issues|158240000|132050000|083fec15-3e5d-40f8-8698-eb4add7efc4d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|160140000|132020000|16a4de7e-f116-483e-bd1c-86cf46199be5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|163050000|132050000|f076c90a-2604-4c33-9a15-5beba6b39403|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|165967243|132028567|f207a9c5-effa-4d8d-a4d4-59873e74e9f2|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|158240000|132050000|083fec15-3e5d-40f8-8698-eb4add7efc4d|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|160140000|132020000|16a4de7e-f116-483e-bd1c-86cf46199be5|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|163050000|132050000|f076c90a-2604-4c33-9a15-5beba6b39403|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|165967243|132028567|f207a9c5-effa-4d8d-a4d4-59873e74e9f2|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|157440485|131597846|68276d6e-bbdd-44e5-9225-a5e1fa0b838d|471ca32f-1493-4bad-a1b8-73b4fc7ee3f5",
+        "silk_overlap|159625595|131567846|abdaf6f0-25de-4c51-a537-02ee30bbd3f8|92f2e71d-8a4f-4b0f-87d0-4a36bfa98f63",
+        "silk_overlap|161050000|131590495|924d5416-86d1-4524-85bf-f1181873df6b|6adc7422-af91-45bd-8076-5f8e58c8f2fa",
+        "silk_overlap|166717243|132472805|cf78e909-9086-4d3f-9823-f646a2b7025a|e591466e-a6bd-4855-b67a-9f7af5981898",
+        "silk_overlap|191059133|178629358|99345e08-1846-4525-847d-c2215265b4c4|61689f10-6799-4059-9d28-8ff8e67d5569",
+        "silk_overlap|199515789|137171053|e4076057-30c7-4d54-b09d-17a9784fabdf|040e8ba6-71e6-46db-a1e2-f73560454778",
+        "silk_overlap|207875800|163700000|bbb5178c-c570-4c6d-971a-98138a2de67f|3506abaa-5911-43e2-b5bb-28eb72150505",
+        "silk_overlap|227299122|178388228|c505f356-18b5-4c35-952c-b1540141c07a|b368effc-b942-4f60-8d82-7a70d35e907a",
+        "silk_overlap|233450000|179387390|c505f356-18b5-4c35-952c-b1540141c07a|a4ada1e3-af68-404b-9c5f-108da251b5eb"
       ],
       "meta": {
         "version": 2
@@ -187,7 +197,7 @@
         0.0,
         0.125,
         0.13,
-        0.155,
+        0.15,
         0.16,
         0.2,
         0.3,
@@ -477,7 +487,7 @@
       {
         "bus_width": 12,
         "clearance": 0.125,
-        "diff_pair_gap": 0.0,
+        "diff_pair_gap": 0.186,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.182,
         "line_style": 0,
@@ -514,9 +524,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/PoE_supply/PG": "PoE",
-      "/PoE_supply/VDD": "PoE",
-      "/PoE_supply/VSS": "PoE",
+      "/PoE_supply_and_ETH/PG": "PoE",
+      "/PoE_supply_and_ETH/VDD": "PoE",
+      "/PoE_supply_and_ETH/VSS": "PoE",
       "GNDD": "PoE",
       "Net-(J1-P4)": "PoE",
       "Net-(Q1-D)": "PoE",
@@ -540,15 +550,15 @@
       },
       {
         "netclass": "PoE",
-        "pattern": "/PoE_supply/C*"
+        "pattern": "/PoE_supply_and_ETH/C*"
       },
       {
         "netclass": "PoE",
-        "pattern": "/PoE_supply/V*"
+        "pattern": "/PoE_supply_and_ETH/V*"
       },
       {
         "netclass": "PoE",
-        "pattern": "/PoE_supply/P*"
+        "pattern": "/PoE_supply_and_ETH/P*"
       }
     ]
   },
@@ -604,7 +614,7 @@
     ],
     [
       "a2b30c81-e263-4971-9235-45a28ceb7112",
-      "PoE_supply"
+      "PoE_supply_and_ETH"
     ],
     [
       "47a421e3-70a1-4c86-94f4-557263ac6525",
@@ -616,7 +626,7 @@
     ],
     [
       "71fd6a9f-e91f-4e27-909c-676c68ed5a18",
-      "USBPD_output"
+      "USBPD_and_ETH_output"
     ]
   ],
   "text_variables": {}
