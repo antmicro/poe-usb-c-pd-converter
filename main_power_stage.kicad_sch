@@ -14224,7 +14224,7 @@
 		)
 		(uuid "65d26019-b778-41fe-b3c2-6afcf745b2ed")
 	)
-	(text "Temp. meas. and fan control"
+	(text "Temperature measurement and fan control"
 		(exclude_from_sim no)
 		(at 232.41 168.91 0)
 		(effects
@@ -14257,9 +14257,9 @@
 		)
 		(uuid "9a289ee5-0b61-4714-8322-39826d970bb0")
 	)
-	(text "Do not connect,\nwork as external switch enable \nin configuration 4"
+	(text "Do not connect,\nthis works as an external switch enable \nin configuration 4"
 		(exclude_from_sim no)
-		(at 309.88 123.19 0)
+		(at 311.15 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14268,7 +14268,7 @@
 		)
 		(uuid "9dde586d-30cc-4f72-8f14-b8e9d93db9fa")
 	)
-	(text "PDO's signalization diodes"
+	(text "PDO indication LEDs"
 		(exclude_from_sim no)
 		(at 329.565 45.72 0)
 		(effects
@@ -14301,7 +14301,7 @@
 		)
 		(uuid "b96b9850-f17c-4114-ade9-cbbbd74c6a67")
 	)
-	(text "USBPD controller"
+	(text "USB Power Delivery Controller"
 		(exclude_from_sim no)
 		(at 177.8 16.51 0)
 		(effects

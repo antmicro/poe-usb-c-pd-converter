@@ -5,8 +5,8 @@
 	(uuid "cf0d4429-3f03-449f-96a7-26d69371a46d")
 	(paper "A3")
 	(title_block
-		(title "PoE to USBC PD adapter")
-		(date "2024-10-17")
+		(title "Power over Ethernet  to USB-C Power Delivery adapter")
+		(date "2025-12-30")
 		(rev "1.1.0")
 		(company "Antmicro Ltd.")
 		(comment 1 "www.antmicro.com")
@@ -3901,7 +3901,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "47a421e3-70a1-4c86-94f4-557263ac6525")
-		(property "Sheetname" "main_power_stage"
+		(property "Sheetname" "Main Power Stage"
 			(at 179.07 107.2384 0)
 			(effects
 				(font
@@ -3910,7 +3910,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "main_power_stage.kicad_sch"
+		(property "Sheetfile" "main-power-stage.kicad_sch"
 			(at 179.07 127.5846 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "71fd6a9f-e91f-4e27-909c-676c68ed5a18")
-		(property "Sheetname" "USBPD_and_ETH_output"
+		(property "Sheetname" "USB Power Delivery and Ethernet output"
 			(at 267.97 98.3484 0)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USBPD_output.kicad_sch"
+		(property "Sheetfile" "usbpd-output.kicad_sch"
 			(at 267.97 127.5846 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "98d3ed26-c38f-44c2-bf71-21a6795da06e")
-		(property "Sheetname" "FTDI"
+		(property "Sheetname" "FTDI USB-I2C converter"
 			(at 179.07 158.0384 0)
 			(effects
 				(font
@@ -4064,7 +4064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FTDI.kicad_sch"
+		(property "Sheetfile" "ftdi.kicad_sch"
 			(at 179.07 179.6546 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a2b30c81-e263-4971-9235-45a28ceb7112")
-		(property "Sheetname" "PoE_supply_and_ETH"
+		(property "Sheetname" "PoE Supply and Ethernet"
 			(at 116.84 97.0784 0)
 			(effects
 				(font
@@ -4146,7 +4146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PoE_supply.kicad_sch"
+		(property "Sheetfile" "poe-supply.kicad_sch"
 			(at 116.84 127.5846 0)
 			(effects
 				(font

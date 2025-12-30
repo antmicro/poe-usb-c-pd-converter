@@ -7375,7 +7375,7 @@
 	)
 	(text "Drain1 and Drain2 are NC pins.\nWork as heat spreaders.\nKeep as big as possible."
 		(exclude_from_sim no)
-		(at 225.425 151.765 0)
+		(at 236.474 152.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7395,7 +7395,7 @@
 		)
 		(uuid "aaacabef-3994-45d5-9363-68861f0bcd84")
 	)
-	(text "USBPD output"
+	(text "USB Power Delivery output"
 		(exclude_from_sim no)
 		(at 188.595 81.915 0)
 		(effects
@@ -7406,7 +7406,7 @@
 		)
 		(uuid "d01587e9-229c-40bb-b7eb-982d939fd0c7")
 	)
-	(text "ETH out"
+	(text "Ethernet data output"
 		(exclude_from_sim no)
 		(at 62.23 81.28 0)
 		(effects

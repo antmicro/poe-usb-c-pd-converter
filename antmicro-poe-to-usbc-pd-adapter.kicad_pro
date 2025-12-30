@@ -660,6 +660,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/PoE Supply and Ethernet/PG": [
+        "PoE"
+      ],
+      "/PoE Supply and Ethernet/VDD": [
+        "PoE"
+      ],
+      "/PoE Supply and Ethernet/VSS": [
+        "PoE"
+      ],
       "/PoE_supply_and_ETH/PG": [
         "PoE"
       ],
@@ -860,19 +869,19 @@
     ],
     [
       "a2b30c81-e263-4971-9235-45a28ceb7112",
-      "PoE_supply_and_ETH"
+      "PoE Supply and Ethernet"
     ],
     [
       "47a421e3-70a1-4c86-94f4-557263ac6525",
-      "main_power_stage"
+      "Main Power Stage"
     ],
     [
       "98d3ed26-c38f-44c2-bf71-21a6795da06e",
-      "FTDI"
+      "FTDI USB-I2C converter"
     ],
     [
       "71fd6a9f-e91f-4e27-909c-676c68ed5a18",
-      "USBPD_and_ETH_output"
+      "USB Power Delivery and Ethernet output"
     ]
   ],
   "text_variables": {}
