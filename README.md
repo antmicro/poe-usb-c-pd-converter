@@ -6,16 +6,16 @@ Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware PCB design files for an adapter which splits Power-over-Ethernet (PoE) capable RJ45 interface port into  USB-C Power Delivery (PD) port an Ethernet RJ45 port. 
-It negotiates power from PoE Power Sourcing Equipment (PSE) such as PoE switch or PoE injector.
-For the  USB-C connection the board serves as Upstream Facing Port (UFP) power source.
+This project contains open hardware PCB design files for an adapter that splits a Power-over-Ethernet (PoE) capable RJ45 interface port into a USB-C Power Delivery (PD) port and an Ethernet RJ45 port. 
+It negotiates power from PoE Power Sourcing Equipment (PSE) such as a PoE switch or a PoE injector.
+For the USB-C connection, the board serves as an Upstream Facing Port (UFP) power source.
 The USB-C port can be used for reading current and voltage negotiated for the PD.
 
 ## Key features
 
-* RJ45 input port for data and PoE++ (IEEE 802.3bt) power
-* RJ45 output port passing raw Ethernet data from input port
-* USB-C regular connector with Power Delivery feature and usb data downstream
+* RJ45 input port for data and PoE++ (IEEE 802.3bt)
+* RJ45 output port passing raw Ethernet data from the input port
+* USB-C regular connector with Power Delivery feature and USB data downstream
 * Automatic input power negotiation (up to 71W) from PSE
 * Externally programmable flash memory
 * Programmable USB Power Delivery power profiles up to 60W
